@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrad"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/btn_shape_corner"
+        android:hint="@string/number"
+        android:inputType="number"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:textDirection="rtl"
+        android:keyboardNavigationCluster="false"
+        android:textSize="30sp"
+        android:layout_margin="5dp"
+        android:elevation="10dp"
+     />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="@drawable/btn_shape_corner"
+        android:layout_marginTop="95dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:elevation="10dp"
+        android:textStyle="bold"
+        android:paddingTop="30dp"
+        android:paddingRight="10dp"
+        android:hint="Result"
+        android:textDirection="rtl"
+        android:textSize="24sp" />
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginRight="16dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/btn_shape_corner"
+                android:elevation="10dp"
+                android:text="@string/clear"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pulmi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/btn_shape_corner"
+                android:elevation="10dp"
+                android:text="+/-"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/percentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_shape_corner"
+                android:elevation="10dp"
+                android:text="@string/percentage"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="5dp"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/btn_shape_corner"
+                android:elevation="10dp"
+                android:text="@string/_7"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/btn_shape_corner"
+                android:elevation="10dp"
+                android:text="@string/_8"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_shape_corner"
+                android:elevation="10dp"
+                android:text="@string/_9"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="5dp"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/btn_shape_corner"
+                android:elevation="10dp"
+                android:text="@string/_4"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/btn_shape_corner"
+                android:elevation="10dp"
+                android:text="@string/_5"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_shape_corner"
+                android:elevation="10dp"
+                android:text="@string/_6"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/btn_shape_corner"
+                android:elevation="10dp"
+                android:text="@string/_1"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/btn_shape_corner"
+                android:elevation="10dp"
+                android:text="@string/_2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_shape_corner"
+                android:elevation="10dp"
+                android:text="@string/_3"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:elevation="10dp"
+            android:padding="5dp">
+
+
+            <Button
+                android:id="@+id/zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/btn_shape_corner"
+                android:elevation="10dp"
+                android:text="@string/_0"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/btn_shape_corner"
+                android:elevation="10dp"
+                android:text="@string/dot"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/backspace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_shape_corner"
+                android:elevation="30dp"
+                android:text="@string/backspace"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+
+    <Button
+        android:id="@+id/equals"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="589dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/equals_btn"
+        android:elevation="10dp"
+        android:text="@string/EQUALS" />
+
+    <Button
+        android:id="@+id/addition"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/addbtn"
+        android:elevation="10dp"
+        android:text="@string/ADDITION" />
+
+    <Button
+        android:id="@+id/substract"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="473dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/subtract_btn"
+        android:elevation="10dp"
+        android:text="@string/SUBSTRACT" />
+
+    <Button
+        android:id="@+id/multi"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/multiply_btn"
+        android:elevation="10dp"
+        android:text="@string/MULTIPLY"
+         />
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="50dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/divide_btn"
+        android:elevation="10dp"
+        android:text="@string/DIVIDE" />
+
+
+</RelativeLayout>
